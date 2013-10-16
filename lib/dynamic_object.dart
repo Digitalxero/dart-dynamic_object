@@ -25,7 +25,6 @@ class DynamicObject extends Object {
     	var property = _symbolToString(mirror.memberName);
 
     	if( mirror.isGetter && (positionalArgs == 0)) {
-			print('Fetching');
       		//synthetic getter
       		if (_objectData.containsKey(property)) {
         		return _objectData[property];
