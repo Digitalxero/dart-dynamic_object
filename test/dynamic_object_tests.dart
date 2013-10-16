@@ -1,8 +1,7 @@
-dart-dynamic_object
-===================
+import 'package:unittest/unittest.dart';
+import 'package:dynamic_object/dynamic_object.dart';
 
-Simple Dynamic object
-
+void main() {
 	test('Simple set test', () {
 		DynamicObject t = new DynamicObject();
 		t.test = 'passed';
@@ -32,3 +31,4 @@ Simple Dynamic object
 		};
 		expect(t.test3('passed', test: 'passed'), equals('passed'));
 	});
+}
