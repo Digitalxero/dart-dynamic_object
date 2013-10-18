@@ -1,5 +1,5 @@
 name: dynamic_object
-version: 1.0.1
+version: 1.0.2
 author: Dj Gilcrease <digitalxero@gmail.com>
 description: Simple Dynamic object that you can add class properties or methods to
 homepage: https://github.com/Digitalxero/dart-dynamic_object

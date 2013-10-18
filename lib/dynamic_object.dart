@@ -56,9 +56,9 @@ class DynamicObject extends Object {
 
   	Iterable get keys => _objectData.keys;
 
-  	operator [](key) => _objectData[key];
+  	operator [](key) => _objectData[_symbolToString(key)];
 
   	operator []=(key,value) {
-    	return _objectData[key] = value;
+    	return _objectData[_symbolToString(key)] = value;
   	}
 }
